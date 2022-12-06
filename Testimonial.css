@@ -1,0 +1,44 @@
+.test-div{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+}
+.test-p{
+    color:#0077C0;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+}
+h8{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.test-div-1{
+ padding: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+.image-1{
+    height: auto;
+    width: 356px;
+   margin: 20px;
+   margin-left: 35px;
+   
+}
+
+
+@media(max-width:820px){
+    .test-div-1{
+    
+      align-items: center;
+    }
+    .image-1{
+        margin-bottom: 20px;
+        width: 100%;
+       
+    }
+}

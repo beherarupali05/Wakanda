@@ -1,0 +1,45 @@
+.call-div{
+    display: flex;
+    justify-content: center;
+   background-color: #FFFFFF;
+   
+}
+.img-3{
+    height: 350px;
+    
+}
+.call-div-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0077C0;
+ 
+  width: 1115px;
+  margin: 70px 163px;
+}
+.call-div-2{
+    color: white;
+}
+.call-button{
+    color: #0077C0;
+    background-color: white;
+    border-color: white;
+}
+@media(max-width:414px){
+    .call-div{
+      flex-direction: column;
+    }
+
+}
+@media(max-width:820px){
+  .call-div-1{
+    flex-direction: column;
+  }
+  .call-div-2{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+   
+
+}
